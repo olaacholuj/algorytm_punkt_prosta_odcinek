@@ -55,4 +55,4 @@ Sprawdzając czy na płaszczyźnie kartezjańskiej punkt należy do odcinka nale
 
 ## 4. Zadania 
 
-
+## Źródła 
