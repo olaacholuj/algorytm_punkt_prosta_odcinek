@@ -7,21 +7,20 @@ Położenie punktu, odcinka czy prostej określamy na płaszczyźnie kartezjańs
 *Płaszczyzna kartezjańska* to dwuwymiarowa płaszczyzna współrzędnych utworzona przez przecięcie dwóch prostopadłych linii. Linia pozioma jest znana jako oś OX, a linia pionowa jako oś OY.
 
 ### Punkt 
-Położenie *punktu* wyznaczamy za pomocą liczbowych wartości jego współrzędnych x i y, które odpowiednio odnoszą się do osi poziomej OX i osi pionowej OY. 
+Położenie *punktu* wyznaczamy za pomocą liczbowych wartości jego współrzędnych x i y - **P(x, y)** - które odpowiednio odnoszą się do osi poziomej OX i osi pionowej OY. 
 
-P(x, y)
 
 ### Odcinek
-*Odcinek* to część prostej zawarta pomiędzy dwoma punktami tej prostej, z tymi punktami włącznie. Współrzędne jego krańców odpowiadają współrzędnym ograniczających go punktów. 
+*Odcinek* to część prostej zawarta **pomiędzy dwoma punktami** tej prostej, z tymi punktami włącznie. Współrzędne jego krańców odpowiadają współrzędnym ograniczających go punktów. 
 
 ### Prosta 
 *Prosta* to krzywa na płaszczyźnie zawierająca w sobie zbiór punktów o współrzędnych spełniających pewne równanie. Jest ona nieograniczona z żadnej strony. 
 Równanie prostej może być zapisane w postaci: 
-- **ogólnej** --->   0 = Ax + By + C,
+- **ogólnej** --->   **0 = Ax + By + C**,
 
     gdzie A, B i C są liczbami rzeczywistymi i A + B ≠ 0
 
-- **kanonicznej (kierunkowej)** --->   y = ax + b,
+- **kanonicznej (kierunkowej)** --->   **y = ax + b**,
 
     gdzie a jest współczynnikiem kierunkowych i określa kąt nachylenia prostej względem osi OX, a wyraz wolny b wyznacza punkt przecięcia prostej z osią OY
 
@@ -41,7 +40,7 @@ KOD PYTHON
 ### Wersja B
 podstawić współrzędne punktu i dwóch innych punktów należących do prostej do wzoru 
 **(y-yA)(xB-xA)-(x-xA)(yB-yA)=0**.
-Jeżeli wartość wyrażenia jest równa **0**, to punkt należy do prostej.
+Jeżeli po przyrównaniu wartości obu stron równania zachodzi **TOŻSAMOŚĆ**, punkt należy do prostej.
 
 Przykładowy program 
 KOD PYTHON
@@ -52,6 +51,8 @@ Sprawdzając czy na płaszczyźnie kartezjańskiej punkt należy do odcinka nale
 2.	Pobrać współrzędne 2 punktów ograniczających ten odcinek
 3.	Sprawdzić czy punkt należy do prostej według wzoru na prostą przechodzącą przez trzy punkty (funkcja wcześniej)
 4.	Jeśli punkt należy do prostej, sprawdzić czy spełnione są warunki XC >= min(XA ; XB), XC <= max(XA ; XB) oraz YC >= min(YA ; YB), YC <= max(YA ; YB) 
-5.	Jeśli wszystkie warunki są spełnione to punkt należy do odcinka 
+5.	Jeśli wszystkie warunki są spełnione to punkt należy do odcinka
+
+## 4. Zadania 
 
 
