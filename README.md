@@ -1,5 +1,4 @@
 # Badanie położenia punktu względem prostej i przynależności punktu do odcinka
-Badanie położenia punktu względem prostej i przynależności punktu do odcinka
 
 Położenie punktu, odcinka czy prostej określamy na płaszczyźnie kartezjańskiej.  
 
