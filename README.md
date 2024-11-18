@@ -28,7 +28,7 @@ Równanie prostej może być zapisane w postaci:
 ## 2. Badanie położenia punktu względem prostej 
 Istnieją dwie opcje położenia punktu względem prostej – albo on do niej należy albo nie. 
 
-Żeby sprawdzić która z opcji jest właściwa dla danych prostej i punktu trzeba: 
+Żeby sprawdzić, która z opcji jest właściwa dla danych prostej i punktu, trzeba: 
 
 ### Wersja A 
 podstawić współrzędne punktu **P(x, y)** do równania prostej, najlepiej tego w postaci kierunkowej **k: y = ax + b**. 
