@@ -36,15 +36,7 @@ Jeżeli po przyrównaniu wartości obu stron równania zachodzi **TOŻSAMOŚĆ**
 
 Przykładowy program 
 KOD PYTHON 
-
-### Wersja B
-podstawić współrzędne punktu i dwóch innych punktów należących do prostej do wzoru 
-**```(y-yA)(xB-xA)-(x-xA)(yB-yA) = 0```**.
-Jeżeli po przyrównaniu wartości obu stron równania zachodzi **TOŻSAMOŚĆ**, punkt należy do prostej.
-
-Przykładowy program 
-KOD PYTHON
-```
+```c++
 #include <iostream> 
 using namespace std; 
 int main() 
@@ -59,6 +51,31 @@ else cout<<endl<<„Punkt nie nalezy do prostej";
 }
 ```
 
+### Wersja B
+podstawić współrzędne punktu i dwóch innych punktów należących do prostej do wzoru 
+**```(y-yA)(xB-xA)-(x-xA)(yB-yA) = 0```**.
+Jeżeli po przyrównaniu wartości obu stron równania zachodzi **TOŻSAMOŚĆ**, punkt należy do prostej.
+
+Przykładowy program 
+KOD PYTHON
+
+```c++
+#include <iostream> 
+using namespace std; 
+int main() 
+{
+int x, y, xA, yA, xB, yB; 
+cout<< „Podaj wspolrzedne x i y punktu”<<endl; 
+cin>>x>>y; 
+cout<<endl<< „Podaj xA i yA jednego z koncow odcinka”<<endl; 
+cin>>xA>>yA;
+cout<<endl<< „Podaj xB i yB drugiego z koncow odcinka”<<endl; 
+cin>>xB>>yB; 
+if ((y-yA)*(xB-xA)-(x-xA)*(yB-yA) == 0) cout<<endl<< „Punkt nalezy do prostej”; 
+else cout<<endl<<„Punkt nie nalezy do prostej";
+}
+```
+
 ## 3. Badanie przynależności punktu do odcinka 
 Sprawdzając czy na płaszczyźnie kartezjańskiej punkt należy do odcinka należy: 
 1.	Pobrać **współrzędne danego punktu**
@@ -66,6 +83,7 @@ Sprawdzając czy na płaszczyźnie kartezjańskiej punkt należy do odcinka nale
 3.	Sprawdzić czy **punkt należy do prostej** według wzoru na prostą przechodzącą przez trzy punkty **```(y-yA)(xB-xA)-(x-xA)(yB-yA) = 0```** (funkcja wcześniej)
 4.	Jeśli punkt należy do prostej, sprawdzić czy **spełnione są warunki** **```XC >= min(XA ; XB), XC <= max(XA ; XB) oraz YC >= min(YA ; YB), YC <= max(YA ; YB) ```**
 5.	Jeśli **wszystkie warunki** są **spełnione** to ***PUNKT NALEŻY DO ODCINKA***.
+
 
 ## 4. Zadania 
 1. Sprawdź czy
