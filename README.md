@@ -3,26 +3,26 @@
 ## 1. Definicje 
 Położenie punktu, odcinka czy prostej określamy na płaszczyźnie kartezjańskiej.  
 
-### Płaszczyzna kartezjańska 
+### PŁASZCZYZNA KARTEZJAŃSKA
 *Płaszczyzna kartezjańska* to dwuwymiarowa płaszczyzna współrzędnych utworzona przez przecięcie dwóch prostopadłych linii. Linia pozioma jest znana jako oś OX, a linia pionowa jako oś OY.
 
-### Punkt 
+### PUNKT
 Położenie *punktu* wyznaczamy za pomocą liczbowych wartości jego współrzędnych x i y - **P(x, y)** - które odpowiednio odnoszą się do osi poziomej OX i osi pionowej OY. 
 
 
-### Odcinek
+### ODCINEK
 *Odcinek* to część prostej zawarta **pomiędzy dwoma punktami** tej prostej, z tymi punktami włącznie. Współrzędne jego krańców odpowiadają współrzędnym ograniczających go punktów. 
 
-### Prosta 
+### PROSTA
 *Prosta* to krzywa na płaszczyźnie zawierająca w sobie zbiór punktów o współrzędnych spełniających pewne równanie. Jest ona nieograniczona z żadnej strony. 
 Równanie prostej może być zapisane w postaci: 
 - **ogólnej** --->   **0 = Ax + By + C**,
 
-    gdzie A, B i C są liczbami rzeczywistymi i A + B ≠ 0
+    gdzie **A**, **B** i **C** są liczbami rzeczywistymi i **A + B ≠ 0**
 
 - **kanonicznej (kierunkowej)** --->   **y = ax + b**,
 
-    gdzie a jest współczynnikiem kierunkowych i określa kąt nachylenia prostej względem osi OX, a wyraz wolny b wyznacza punkt przecięcia prostej z osią OY
+    gdzie **a** jest współczynnikiem kierunkowych i określa kąt nachylenia prostej względem osi OX, a wyraz wolny **b** wyznacza punkt przecięcia prostej z osią OY
 
 
 ## 2. Badanie położenia punktu względem prostej 
