@@ -86,9 +86,18 @@ Sprawdzając czy na płaszczyźnie kartezjańskiej punkt należy do odcinka nale
 
 
 ## 4. Zadania 
-1. Sprawdź czy
+1. Sprawdź czy:
    * punkt A(2, 3) należy do prostej l: ...
-   * B(-5,7) należy do odcinka prostej m: ograniczonego punktami S(...) i R(...)
-4. Napisz funkcję, która obliczy odległość punktu P(x,y) od prostej k: 0 = Ax + By + C
+   * B(-5,7) należy do odcinka prostej m: ograniczonego punktami S(...) i R(...),
+2. Napisz funkcję, która sprawdza przynależność punktu do prostej na podstawie równania prostej W POSTACI KANONICZNEJ,
+3. Napisz funkcję, która obliczy odległość punktu P(x,y) od prostej k: 0 = Ax + By + C.
 
 ## Źródła 
+https://wlasnoscigeometryczne.wordpress.com/badanie-polozenia-punktu-wzgledem-prostej/
+
+https://pl.wikipedia.org/wiki/Prosta
+
+https://algorytm.htw.pl/
+
+https://wlasnoscigeometryczne.wordpress.com/przynaleznosc-punktu-do-prostej/
+
