@@ -116,7 +116,7 @@ def is_in_segment(x, y, xa, ya, xb, yb):
 1. Sprawdź czy: 
    * punkt A(1, 2) należy do prostej l: y = x + 1
    * B(4,7) należy do odcinka prostej m: ograniczonego punktami S(2, 5) i R(9, 6),
-2. Napisz funkcję, która sprawdza przynależność punktu do prostej na podstawie równania prostej W POSTACI KANONICZNEJ,
+2. Napisz funkcję, która sprawdza przynależność punktu do prostej na podstawie równania prostej W POSTACI OGÓLNEJ,
 3. Napisz funkcję, która obliczy odległość punktu P(x,y) od prostej k: 0 = Ax + By + C.
 
 ## Źródła 
