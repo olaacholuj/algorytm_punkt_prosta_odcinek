@@ -34,8 +34,15 @@ Istnieją dwie opcje położenia punktu względem prostej – albo on do niej na
 podstawić współrzędne punktu **```P(x, y)```** do równania prostej, najlepiej tego w postaci kierunkowej **```k: y = ax + b```**. 
 Jeżeli po przyrównaniu wartości obu stron równania zachodzi **TOŻSAMOŚĆ**, punkt należy do prostej.
 
-Przykładowy program 
-KOD PYTHON 
+ 
+```python
+def is_in_line_1(x, y, a, b):
+    if(y == a*x + b):
+        return("Punkt należy do prostej")
+    else:
+        return("Punkt nie należy do prostej")
+```
+
 ```c++
 #include <iostream> 
 using namespace std; 
@@ -51,13 +58,20 @@ else cout<<endl<<„Punkt nie nalezy do prostej";
 }
 ```
 
+
 ### Wersja B
 podstawić współrzędne punktu i dwóch innych punktów należących do prostej do wzoru 
 **```(y-yA)(xB-xA)-(x-xA)(yB-yA) = 0```**.
 Jeżeli po przyrównaniu wartości obu stron równania zachodzi **TOŻSAMOŚĆ**, punkt należy do prostej.
 
-Przykładowy program 
-KOD PYTHON
+
+```python
+def is_in_line_2(x, y, xa, ya, xb, yb):
+    if((y-ya)*(xb-xa)-(x-xa)*(yb-ya) == 0):
+        return("Punkt należy do prostej")
+    else:
+        return("Punkt nie należy do prostej")
+```
 
 ```c++
 #include <iostream> 
