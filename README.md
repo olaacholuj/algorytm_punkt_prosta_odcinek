@@ -34,6 +34,7 @@ Istnieją dwie opcje położenia punktu względem prostej – albo on do niej na
 podstawić współrzędne punktu **```P(x, y)```** do równania prostej, najlepiej tego w postaci kierunkowej **```k: y = ax + b```**. 
 Jeżeli po przyrównaniu wartości obu stron równania zachodzi **TOŻSAMOŚĆ**, punkt należy do prostej.
 
+python 
  
 ```python
 def is_in_line_1(x, y, a, b):
@@ -43,6 +44,7 @@ def is_in_line_1(x, y, a, b):
         return("Punkt nie należy do prostej")
 ```
 
+C++
 ```c++
 #include <iostream> 
 using namespace std; 
@@ -64,7 +66,7 @@ podstawić współrzędne punktu i dwóch innych punktów należących do proste
 **```(y-yA)(xB-xA)-(x-xA)(yB-yA) = 0```**.
 Jeżeli po przyrównaniu wartości obu stron równania zachodzi **TOŻSAMOŚĆ**, punkt należy do prostej.
 
-
+python 
 ```python
 def is_in_line_2(x, y, xa, ya, xb, yb):
     if((y-ya)*(xb-xa)-(x-xa)*(yb-ya) == 0):
@@ -73,6 +75,7 @@ def is_in_line_2(x, y, xa, ya, xb, yb):
         return("Punkt nie należy do prostej")
 ```
 
+C++
 ```c++
 #include <iostream> 
 using namespace std; 
