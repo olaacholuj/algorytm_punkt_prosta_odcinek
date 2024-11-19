@@ -98,6 +98,19 @@ Sprawdzając czy na płaszczyźnie kartezjańskiej punkt należy do odcinka nale
 4.	Jeśli punkt należy do prostej, sprawdzić czy **spełnione są warunki** **```XC >= min(XA ; XB), XC <= max(XA ; XB) oraz YC >= min(YA ; YB), YC <= max(YA ; YB) ```**
 5.	Jeśli **wszystkie warunki** są **spełnione** to ***PUNKT NALEŻY DO ODCINKA***.
 
+```python
+def is_in_segment(x, y, xa, ya, xb, yb):
+    if((y-ya)*(xb-xa)-(x-xa)*(yb-ya) == 0):
+        x_minimum = min(xa, xb)
+        y_minimum = min(ya, yb)
+        x_maksimum = max(xa,xb)
+        y_maksimum = max(ya, yb)
+        if (x>=x_minimum and x<=x_maksimum and y>=y_minimum and y<=y_maksimum):
+            return("Punkt należy do odcinka")
+        else:
+            return("Punkt nie należy do odcinka")
+```
+
 
 ## 4. Zadania 
 1. Sprawdź czy:
