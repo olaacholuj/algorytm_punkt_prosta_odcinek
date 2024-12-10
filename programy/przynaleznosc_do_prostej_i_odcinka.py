@@ -18,23 +18,29 @@ def is_in_segment(x, y, xa, ya, xb, yb):
         y_maksimum = max(ya, yb)
         if (x>=x_minimum and x<=x_maksimum and y>=y_minimum and y<=y_maksimum):
             return("Punkt należy do odcinka")
-        else:
-            return("Punkt nie należy do odcinka")
+    else:
+        return("Punkt nie należy do odcinka")
 
 if __name__ == '__main__':
     print("Podaj współrzędne x i y punktu")
     x = int(input("x: "))
     y = int(input("y: "))
 
-    print("Podaj współczynniki a i b równania prostej w postaci kierunkowej")
+    print("Podaj współczynniki a i b równania prostej w postaci kierunkowej y = a*x + b")
     a = int(input("a: "))
     b = int(input("b: "))
 
+    print(is_in_line_1(x, y, a, b))
+
     print("Podaj współrzędne x i y punktów A i B należących do prostej")
-    xA = int(input("xA: "))
-    yA = int(input("yA: "))
-    xB = int(input("xB: "))
-    yB = int(input("yB: "))
+    xA = int(input("Ax: "))
+    yA = int(input("Ay: "))
+    xB = int(input("Bx: "))
+    yB = int(input("By: "))
+
+    print(is_in_line_2(x, y, xA, yA, xB, yB))
+
+    print(is_in_segment(x, y, xA, yA, xB, yB))
 
     print(is_in_line_1(x, y, a, b))
     print(is_in_line_2(x, y, xA, yA, xB, yB))
