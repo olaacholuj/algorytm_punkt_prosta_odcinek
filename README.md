@@ -110,8 +110,8 @@ def is_in_segment(x, y, xa, ya, xb, yb):
         y_maksimum = max(ya, yb)
         if (x>=x_minimum and x<=x_maksimum and y>=y_minimum and y<=y_maksimum):
             return("Punkt należy do odcinka")
-        else:
-            return("Punkt nie należy do odcinka")
+    else:
+        return("Punkt nie należy do odcinka")
 ```
 
 
