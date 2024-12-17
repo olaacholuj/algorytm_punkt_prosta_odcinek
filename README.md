@@ -119,8 +119,9 @@ def is_in_segment(x, y, xa, ya, xb, yb):
 1. Sprawdź czy: 
    * punkt A(1, 2) należy do prostej l: y = x + 1
    * punkt B(4,7) należy do odcinka ograniczonego punktami S(2, 5) i R(9, 6).
-2. Napisz funkcję, która sprawdza przynależność punktu do prostej na podstawie równania prostej W POSTACI OGÓLNEJ.
-3. Napisz funkcję, która obliczy odległość punktu P(x,y) od prostej k: 0 = Ax + By + C.
+2. Napisz kod, ktory sprawdza czy wprowadzone przez użytkownika dane są liczbami.
+3. Napisz funkcję, która sprawdza przynależność punktu do prostej na podstawie równania prostej W POSTACI OGÓLNEJ.
+4. Napisz funkcję, która obliczy odległość punktu P(x,y) od prostej k: 0 = Ax + By + C.
 
 ## Źródła 
 https://wlasnoscigeometryczne.wordpress.com/badanie-polozenia-punktu-wzgledem-prostej/
