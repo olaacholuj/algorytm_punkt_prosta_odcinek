@@ -18,7 +18,7 @@ Położenie *punktu* wyznaczamy za pomocą **liczbowych wartości jego współrz
 Równanie prostej może być zapisane w postaci: 
 - **ogólnej** --->   **```0 = Ax + By + C```**,
 
-    gdzie **A**, **B** i **C** są liczbami rzeczywistymi i **A + B ≠ 0**
+    gdzie **A**, **B** i **C** są liczbami rzeczywistymi i **A^2 + B^2 ≠ 0**
 
 - **kanonicznej (kierunkowej)** --->   **```y = ax + b```**,
 
